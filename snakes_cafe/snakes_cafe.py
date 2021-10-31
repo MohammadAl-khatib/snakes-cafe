@@ -52,6 +52,17 @@ Unicorn Tears
 ***********************************""")
 
 def cafe_orders_handler():
+
+    """  
+    This function takes orders from a user and displays them back
+
+    input:
+    order (string)
+
+    output:
+    string of orders taken
+    """
+
     order = input('> ')
     while order != 'quit':
         # menu[order]=0     # uncomment for letting user choose out from the menu without a warning
@@ -63,7 +74,6 @@ def cafe_orders_handler():
             print ('Pleae choose from our menu')
             order = input('> ')
     print ('Thanks for chosing our snakes-cafe, see you soon')
-
 
 
 if __name__ == '__main__':
